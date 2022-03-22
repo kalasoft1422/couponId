@@ -14,6 +14,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class KSMapActivity extends AppCompatActivity implements OnMapReadyCallback {
     //TODO sepearate MapReady callback
+
     private MapView mapView;
     private GoogleMap googleMap = null;
     private static final String MAPVIEW_BUNDLE_KEY = "MapViewBundleKey";
